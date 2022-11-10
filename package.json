@@ -1,0 +1,19 @@
+{
+  "name": "song-game",
+  "version": "1.0.0",
+  "description": "song-game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stecinelli/song-game.git"
+  },
+  "author": "Stephanie Cinelli <stephaniecinellki@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stecinelli/song-game/issues"
+  },
+  "homepage": "https://github.com/stecinelli/song-game#readme"
+}
