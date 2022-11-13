@@ -9,10 +9,10 @@ const Result = ({score}) => {
   return (
     <div className='result'>
       <img src='trophy.png' alt='trophy'/>
-      <h1>Congratulations {playerName}!</h1>
-      <p>This is your score:</p>
-      <div className='result-corrects'>
-        <div>{score} correct answers</div>
+      <h3>Congratulations {playerName}!</h3>
+      <h5>This is your score:</h5>
+      <div className='result-corrects--container'>
+        <div className='result-corrects'>{score} correct answers</div>
       </div>
     </div>
   )

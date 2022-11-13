@@ -21,7 +21,7 @@ const Welcome = () => {
 
   return (
     <div className='welcome'>
-      <h1> Welcome to the Sond Game!</h1>
+      <h1> Welcome to the Song Game!</h1> 
       <p>To play you can type your name and choose if you want to guess the name of the songs or who is playing.</p>
       <form className='welcome-form'>
         <label>Player:</label>
@@ -31,12 +31,14 @@ const Welcome = () => {
         type='text'
         name='PlayerName'
         id='PlayerName'/>
-        <div className='welcome-form--buttons'>
+        <div className='welcome-form--buttons-containers'>
           <button
           type='button'
+          className='welcome-form--buttons'
           onClick={() => startGame('song-title')}>By Song Name</button>
           <button
           type='button'
+          className='welcome-form--buttons'
           onClick={ ()=> startGame('artist')}>By Artist</button>
         </div>
       </form>

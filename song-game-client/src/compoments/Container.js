@@ -16,7 +16,7 @@ const Container = () => {
   return (
     <React.Fragment>
       <Game></Game>
-      <button onClick={() => setGameSetup({})}>Return to home</button>
+      <button className='home-button' onClick={() => setGameSetup({})}>Return to home</button>
     </React.Fragment>
   )
 

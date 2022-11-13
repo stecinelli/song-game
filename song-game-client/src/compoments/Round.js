@@ -22,27 +22,29 @@ const Round = ({ addScore, goToNextRound, roundIndex, playedSongs, addPlayedSong
 	}
 
 	return round && (
-		<div className='game'>
-			<h3>Whitch {context.gameSetup.category === 'song-title' ? 'SONG' : 'ARTIST'} is playing?</h3>
-			<audio controls autoPlay src={round.songUrl}>
-
-			</audio>
-			<div>
-        {round.choices.map(choice => (
-          <button
-					type='button'
-					className={`game-button ${selectedAnswer === '' ? '' : (choice === round.correctAnswer ? 'correct' : 'wrong')}`}
-					onClick={() => selectAnswer(choice)}
-				>
-					{choice}
-				</button>
-        ))}
-
+		<div className='round'>
+			<h3>Which {context.gameSetup.category === 'song-title' ? 'SONG' : 'ARTIST'} is playing?</h3>
+			<audio controls autoPlay src={round.songUrl}></audio>
+			<div className='round-round-answerButton--container'>
+        		{round.choices.map(choice => (
+					<button
+						type='button'
+						className={`round-answerButton ${selectedAnswer === '' ? '' : (choice === round.correctAnswer ? 'correct' : 'wrong')}`}
+						onClick={() => selectAnswer(choice)}
+					>
+						{choice}
+					</button>
+				))}
 			</div>
-			{selectedAnswer !== ''
-        && <button type='button' onClick={goToNextRound}>
-        {roundIndex === 2 ? 'See results' : 'Go to next song'}
-        </button>}
+			{	selectedAnswer !== ''
+				&& <button
+					type='button'
+					onClick={goToNextRound}
+					className='round-nextButton'
+					>
+					{roundIndex === 2 ? 'See results' : 'Go to next song'}
+					</button>
+			}
 		</div>
 	)
 }
