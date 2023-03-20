@@ -7,6 +7,8 @@ The flow of the game is: a song will play and you will have to guess the name of
 
 At the beginning of the game, you must enter your name and define whether you want to play by guessing the name of the song or who will be singing it. As soon as you choose your answer, the correct option will turn green so you know if you got it right or wrong in this round. At the end of the 3 rounds you will have your total score displayed on the screen.
 
+<img src="/Screenshot Web - Sound Game.jpg" alt="Screenshot Web" title="Screenshot Web" width="24%" height="24%"/> &nbsp;<img src="/Screenshot Web 1 - Sound Game.jpg" alt="Screenshot Web" title="Screenshot Web" width="29%" height="29%"/> &nbsp;<img src="/Screenshot Web 2 - Sound Game.jpg" alt="Screenshot Web" title="Screenshot Web" width="20%" height="20%"/>
+
 Now it's time to play!
 Good luck 😉
 
