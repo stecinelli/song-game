@@ -14,9 +14,10 @@ Good luck 😉
 
 ## Game setup
 
-To start you should go into the song-game-client folder and run `npm i && npm start`.
-The second and final step is to go into the song-game-server folder and also run `npm i && npm start`.
-The server runs on port 8000 and the client on port 3000.
+To start you should go into the song-game-client folder and run `npm i && npm start`. <br>
+The second and final step is to go into the song-game-server folder and also run `npm i && npm start`. <br>
+The server runs on port 8000 and the client on port 3000. <br>
+
 This game was entirely developed with JavaScript, NodeJS and React.
 
 Now you are ready to have fun!
